@@ -507,7 +507,6 @@ CONFIG_PACKAGE_kmod-crypto-sha512=y
 CONFIG_PACKAGE_openwrt-keyring=y
 CONFIG_PACKAGE_usign=y
 CONFIG_PACKAGE_luci-app-autoupdate=y
-CONFIG_PACKAGE_luci-app-natter2=y
 CONFIG_PACKAGE_luci-app-iperf3-server=y
 CONFIG_PACKAGE_luci-app-onliner=y
 CONFIG_PACKAGE_tar=y
@@ -529,13 +528,11 @@ CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_Plus=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Plugin=y
 CONFIG_PACKAGE_luci-app-passwall_Iptables_Transparent_Proxy=y
 CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
-CONFIG_PACKAGE_luci-app-msd_lite=y
 CONFIG_PACKAGE_luci-app-https-dns-proxy=y
 CONFIG_PACKAGE_logger=y
 CONFIG_PACKAGE_ddns-go=y
 CONFIG_PACKAGE_luci-app-ddns-go=y
 CONFIG_PACKAGE_wpad-openssl=y
-CONFIG_PACKAGE_luci-app-iptvhelper=y
 CONFIG_PACKAGE_luci-app-mosdns=y
 CONFIG_PACKAGE_iptables-mod-socket=y
 CONFIG_PACKAGE_kmod-ipt-socket=y
@@ -557,3 +554,10 @@ CONFIG_PACKAGE_luci-app-ipsec-vpnd=y
 CONFIG_PACKAGE_luci-app-bypass=y
 CONFIG_PACKAGE_luci-app-adguardhome=y
 CONFIG_PACKAGE_luci-theme-argon=y
+
+
+
+
+
+
+

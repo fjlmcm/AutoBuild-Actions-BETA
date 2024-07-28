@@ -138,7 +138,7 @@ EOF
 			ClashDL amd64 meta
 			AddPackage passwall xiaorouji openwrt-passwall-packages main
 			AddPackage passwall xiaorouji openwrt-passwall main
-			# AddPackage passwall xiaorouji openwrt-passwall2 main
+			AddPackage passwall xiaorouji openwrt-passwall2 main
 			rm -r ${WORK}/package/other/helloworld/xray-core
 			rm -r ${WORK}/package/other/helloworld/xray-plugin
 			# rm -rf packages/lean/autocore
@@ -159,7 +159,7 @@ EOF
 			case "${CONFIG_FILE}" in
 			x86_64-NextV21)
 				# sed -i "s?/bin/login?/usr/libexec/login.sh?g" ${FEEDS_PKG}/ttyd/files/ttyd.config
-				# AddPackage passwall xiaorouji openwrt-passwall2 main
+				AddPackage passwall xiaorouji openwrt-passwall2 main
 				AddPackage passwall xiaorouji openwrt-passwall main
 				rm -r ${FEEDS_LUCI}/luci-app-passwall
 				rm -r ${FEEDS_PKG}/xray-core

@@ -185,6 +185,7 @@ EOF
 		case "${TARGET_PROFILE}" in
 		cmcc_rax3000m | jcg_q30)
 			AddPackage passwall xiaorouji openwrt-passwall main
+			AddPackage passwall xiaorouji openwrt-passwall2 main
 			AddPackage other sbwml luci-app-mosdns v5
    			rm -r ${WORK}/package/other/luci-app-mosdns/mosdns
 			rm -r ${FEEDS_LUCI}/luci-app-passwall

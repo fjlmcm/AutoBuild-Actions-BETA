@@ -192,7 +192,7 @@ CONFIG_MTK_WNM_SUPPORT=y
 CONFIG_MTK_WPA3_SUPPORT=y
 CONFIG_MTK_WSC_INCLUDED=y
 CONFIG_MTK_WSC_V2_SUPPORT=y
-CONFIG_NFS_KERNEL_SERVER_V4=y
+#CONFIG_NFS_KERNEL_SERVER_V4=y
 # CONFIG_OPENSSL_ENGINE_BUILTIN is not set
 # CONFIG_OPENSSL_PREFER_CHACHA_OVER_GCM is not set
 CONFIG_OPENSSL_WITH_NPN=y
@@ -223,7 +223,7 @@ CONFIG_PACKAGE_f2fsck=m
 CONFIG_PACKAGE_fdisk=m
 CONFIG_PACKAGE_git=y
 CONFIG_PACKAGE_git-http=y
-CONFIG_PACKAGE_hd-idle=y
+#CONFIG_PACKAGE_hd-idle=y
 CONFIG_PACKAGE_htop=y
 CONFIG_PACKAGE_ip-bridge=y
 CONFIG_PACKAGE_ip-full=y
@@ -263,8 +263,8 @@ CONFIG_PACKAGE_kmod-ebtables-ipv6=y
 CONFIG_PACKAGE_kmod-fs-autofs4=y
 CONFIG_PACKAGE_kmod-fs-btrfs=y
 # CONFIG_PACKAGE_kmod-fs-ksmbd is not set
-CONFIG_PACKAGE_kmod-fs-nfs=y
-CONFIG_PACKAGE_kmod-fs-nfs-v4=y
+#CONFIG_PACKAGE_kmod-fs-nfs=y
+#CONFIG_PACKAGE_kmod-fs-nfs-v4=y
 CONFIG_PACKAGE_kmod-fs-xfs=y
 CONFIG_PACKAGE_kmod-ifb=y
 CONFIG_PACKAGE_kmod-inet-diag=y
@@ -364,11 +364,11 @@ CONFIG_PACKAGE_lua-neturl=y
 CONFIG_PACKAGE_luci-app-accesscontrol=y
 CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-diskman=y
-CONFIG_PACKAGE_luci-app-eqos-mtk=y
-CONFIG_PACKAGE_luci-app-hd-idle=y
+#CONFIG_PACKAGE_luci-app-eqos-mtk=y
+#CONFIG_PACKAGE_luci-app-hd-idle=y
 # CONFIG_PACKAGE_luci-app-ksmbd is not set
 CONFIG_PACKAGE_luci-app-mtwifi-cfg=y
-CONFIG_PACKAGE_luci-app-nfs=y
+#CONFIG_PACKAGE_luci-app-nfs=y
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
 CONFIG_PACKAGE_luci-app-samba4=y
@@ -385,32 +385,32 @@ CONFIG_PACKAGE_luci-app-turboacc-mtk=y
 #CONFIG_PACKAGE_luci-app-uhttpd=y
 CONFIG_PACKAGE_luci-app-upnp=y
 # CONFIG_PACKAGE_luci-app-usb-printer is not set
-CONFIG_PACKAGE_luci-app-vsftpd=y
+#CONFIG_PACKAGE_luci-app-vsftpd=y
 # CONFIG_PACKAGE_luci-app-vssr_INCLUDE_ShadowsocksR_Libev_Server is not set
 # CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Trojan is not set
 # CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Xray is not set
 # CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Xray_plugin is not set
 CONFIG_PACKAGE_luci-app-wireguard=y
-CONFIG_PACKAGE_luci-app-wol=y
+#CONFIG_PACKAGE_luci-app-wol=y
 #CONFIG_PACKAGE_luci-app-zerotier=y
 CONFIG_PACKAGE_luci-i18n-accesscontrol-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-autoreboot-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-diskman-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-eqos-mtk-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-hd-idle-zh-cn=y
+#CONFIG_PACKAGE_luci-i18n-hd-idle-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-mtwifi-cfg-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-nfs-zh-cn=y
+#CONFIG_PACKAGE_luci-i18n-nfs-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-samba4-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-socat-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-ssr-plus-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-turboacc-mtk-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-uhttpd-zh-cn=y
+#CONFIG_PACKAGE_luci-i18n-uhttpd-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-upnp-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-vsftpd-zh-cn=y
+#CONFIG_PACKAGE_luci-i18n-vsftpd-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-wireguard-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-wol-zh-cn=y
+#CONFIG_PACKAGE_luci-i18n-wol-zh-cn=y
 #CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
 CONFIG_PACKAGE_luci-proto-wireguard=y
 CONFIG_PACKAGE_luci-ssl-openssl=y
@@ -422,10 +422,10 @@ CONFIG_PACKAGE_mount-utils=y
 CONFIG_PACKAGE_mtkhqos_util=y
 CONFIG_PACKAGE_mtwifi-cfg=y
 CONFIG_PACKAGE_nano=y
-CONFIG_PACKAGE_nfs-kernel-server=y
-CONFIG_PACKAGE_nfs-kernel-server-utils=y
-CONFIG_PACKAGE_nfs-utils=y
-CONFIG_PACKAGE_nfs-utils-libs=y
+#CONFIG_PACKAGE_nfs-kernel-server=y
+#CONFIG_PACKAGE_nfs-kernel-server-utils=y
+#CONFIG_PACKAGE_nfs-utils=y
+#CONFIG_PACKAGE_nfs-utils-libs=y
 CONFIG_PACKAGE_openssh-keygen=y
 CONFIG_PACKAGE_openssh-sftp-server=y
 CONFIG_PACKAGE_openssl-util=y
@@ -575,7 +575,7 @@ CONFIG_PACKAGE_kmod-usb-net-cdc-subset=y
 CONFIG_PACKAGE_kmod-usb-net-dm9601-ether=y
 CONFIG_PACKAGE_kmod-usb-net-hso=y
 CONFIG_PACKAGE_kmod-usb-net-ipheth=y
-CONFIG_PACKAGE_kmod-usb-net-kalmia=y
+#CONFIG_PACKAGE_kmod-usb-net-kalmia=y
 CONFIG_PACKAGE_kmod-usb-net-kaweth=y
 CONFIG_PACKAGE_kmod-usb-net-mcs7830=y
 CONFIG_PACKAGE_kmod-usb-net-pegasus=y
